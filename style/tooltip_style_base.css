@@ -1,5 +1,5 @@
 /*
-Author: 		Joe K (and see citation)
+Author: 	Joe K (and see citation)
 Version Date:	2019/04/09
 Description:
 
@@ -24,7 +24,8 @@ CITATION: https://www.w3schools.com/howto/howto_css_tooltip.asp
 	visibility: hidden;
 	background-color: #555;
 	color: #fff;
-font-size: 12pt;
+	font-size: 12pt;
+	font-family: Georgia;
 	text-align: center;
 	padding: 5px 0;
 	border-radius: 6px;
