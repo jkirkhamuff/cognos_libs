@@ -27,6 +27,8 @@ CITATION: https://www.w3schools.com/howto/howto_css_tooltip.asp
 	font-size: 12pt;
 	font-family: Georgia;
 	text-align: center;
+	font-weight: normal;
+	font-style: normal;
 	padding: 5px 0;
 	border-radius: 6px;
 
