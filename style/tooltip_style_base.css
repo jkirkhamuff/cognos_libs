@@ -23,7 +23,7 @@ CITATION: https://www.w3schools.com/howto/howto_css_tooltip.asp
 {
 	/* Position the tooltip text */
 	position: absolute;
-	display: table
+	display: table;
 	top: 2em;
 	z-index: 1;
 	right: 0;
