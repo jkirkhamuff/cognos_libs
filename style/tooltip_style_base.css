@@ -16,12 +16,19 @@ CITATION: https://www.w3schools.com/howto/howto_css_tooltip.asp
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
-	max-height: 1em;
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext
 {
+	/* Position the tooltip text */
+	position: absolute;
+	display: table
+	top: 2em;
+	z-index: 1;
+	right: 0;
+	
+	/* format */
 	visibility: hidden;
 	background-color: #555;
 	color: #fff;
@@ -33,14 +40,6 @@ CITATION: https://www.w3schools.com/howto/howto_css_tooltip.asp
 	padding: 5px 0;
 	border-radius: 6px;
 	white-space: pre-line;
-
-	/* Position the tooltip text */
-	position: relative;
-	display: table-cell;
-	top: 1em;
-
-	z-index: 1;
-	right: 0;
 
 	/* Fade in tooltip */
 	opacity: 0;
