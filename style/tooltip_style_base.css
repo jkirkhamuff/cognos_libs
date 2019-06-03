@@ -37,7 +37,7 @@ CITATION: https://www.w3schools.com/howto/howto_css_tooltip.asp
 	/* Position the tooltip text */
 	position: relative;
 	display: table-cell;
-	bottom: 1em;
+	top: 1em;
 
 	z-index: 1;
 	right: 0;
